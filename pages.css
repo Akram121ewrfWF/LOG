@@ -100,3 +100,32 @@ footer{background: #EEE;padding-top: 25px;padding-bottom: 15px;}
 #E::before{content: '1- ';}
 #F::before{content: '2- ';}
 #G::before{content: '3- ';}
+/*  */
+/*  */
+.box-left div ul{
+    /* border:solid red; */
+    list-style: none;
+    /* width: 50%; */
+    /* gap: 5px; */
+    /* margin: 5px; */
+}
+.box-left > div{
+    text-align: end;
+    display: flex;
+    /* justify-content: space-betwee; */
+    gap: 10px;
+}
+.box-left ul li{
+    /* border: solid blue; */
+    margin-top: 2px;
+}
+.none{
+    display: none !important;
+    }
+    .block{
+        display: block !important;
+    }
+    #B{display: none !important;}
+/*  */
+#minus{display: none;}
+/* .add{display: block;} */

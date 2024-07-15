@@ -46,6 +46,7 @@ a.nav-link + .dropdown > div > div{display: flex;align-items: center; gap: 6px;w
     #card-footer{height: auto !important};
     .parent{display: block !important;}
 
+
     
 }
 @media (min-width: 768px) and (max-width: 991.33px){
@@ -58,40 +59,6 @@ a.nav-link + .dropdown > div > div{display: flex;align-items: center; gap: 6px;w
     #card{width: 100% !important;margin-bottom: 8px;}
     #content-green{height: auto;}
     #img-footer{height: 150px;}
-    #media{right: -295px !important;}
-    
-
-}
-@media (min-width: 991.33px) and (max-width: 1020px){
-    /* #media{right: ;} */
-    
-}
-@media(min-width: 1020px) and (max-width: 1059px){
-    
-    .dropdown > div + #media{right: -315px !important;}
-}
-@media (min-width: 1059px) and (max-width: 1090px) {
-    
-    .dropdown > div + #media{right: -340px !important;}
-}
-@media (min-width: 1090px) and (max-width: 1110px){
-    #media{right: -355px !important;}
-    
-}
-@media (min-width: 1110px) and (max-width: 1130px){
-    .dropdown > div + #media{right: -375px !important;}  
-}
-@media (min-width: 1130px) and (max-width: 1155px){
-    .dropdown > div + #media{right: -390px !important;}  
-    
-}
-@media (min-width: 1155px) and (max-width: 1200px){
-    .dropdown > div + #media{right: -405px !important;}  
-}
-@media (min-width: 1200px) and (max-width: 1230px){
-    /* #screen{background-color: blue;} */
-    .dropdown > div + #media{right: -410px !important;}  
-    
 }
 @media (min-width: 1050px) and (max-width: 1199.33px){
     #card{width: 100% !important;margin-bottom: 8px;}
@@ -116,7 +83,6 @@ a.nav-link + .dropdown > div > div{display: flex;align-items: center; gap: 6px;w
         right: -320px !important;
     }
 
-
 }
 @media (min-width: 1005px) and (max-width: 1020px){
     /* body{background-color: blueviolet;} */
@@ -125,7 +91,6 @@ a.nav-link + .dropdown > div > div{display: flex;align-items: center; gap: 6px;w
         min-width: 960px;
         right: -312px !important;
     }
-    
 
 }
 @media (min-width: 1021px) and (max-width: 1035px){
