@@ -32,8 +32,9 @@ a.nav-link + .dropdown > div > div{display: flex;align-items: center; gap: 6px;w
     #card-footer{height: auto !important};
 }
 @media screen and (max-width: 990px){
-    /* body{background-color: brown;} */
+    /* body{background-color: brown !important;} */
     #hover, #plus{display: none;}
+    #content-Line-Two,#content-Line-Three,#content-Line-Four,#content-Line-One{height: 90vh !important;}
 }
 @media (min-width: 573px) and (max-width: 767.33px) {
     #card{width: 100% !important;}
@@ -116,7 +117,6 @@ a.nav-link + .dropdown > div > div{display: flex;align-items: center; gap: 6px;w
         right: -320px !important;
     }
 
-
 }
 @media (min-width: 1005px) and (max-width: 1020px){
     /* body{background-color: blueviolet;} */
@@ -124,8 +124,7 @@ a.nav-link + .dropdown > div > div{display: flex;align-items: center; gap: 6px;w
         max-width: 930px;
         min-width: 960px;
         right: -312px !important;
-    }
-    
+    }    
 
 }
 @media (min-width: 1021px) and (max-width: 1035px){

@@ -39,7 +39,8 @@
 }
 /*  */
 /*  */
-
+/* #medi{background: red !important;} */
+.content-parent{height: auto !important;}
 .none{
     display: none !important;
     }

@@ -17,6 +17,7 @@
 .dropdown:hover .content-parent{
     visibility: visible;
 }
+.content-parent{height: auto !important;}
 h5{
     list-style: none;
     overflow: hidden;
