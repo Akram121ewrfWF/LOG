@@ -29,7 +29,8 @@
     background-color: green;
     position: absolute;
     bottom: -25px;
-    right: 225px;
+    left: 215px;
+    color:white;
     /* margin-top: 40px; */
 }
 #flex{
@@ -157,6 +158,7 @@ main h2,main h4{
 #content-Line-Four, #content-Line-Three ,#content-Line-One,#content-Line-Two{
     /* border: solid red; */
     height: 51vh;
+    transition: 1.2s !important;
     /* padding-left: 8px; */
     overflow: hidden;
     /* padding: 0px -15px; */

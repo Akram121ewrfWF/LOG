@@ -31,6 +31,61 @@ a.nav-link + .dropdown > div > div{display: flex;align-items: center; gap: 6px;w
     #footer #FT > #footer-img{width: 77% !important;}
     #card-footer{height: auto !important};
 }
+@media (min-width: 0px) and (max-width: 400px){
+    .Image-screen{
+        /* border: solid blue 10px !important; */
+        width: 340px !important;
+        height: 290px !important;
+        margin: auto !important;
+    }
+}
+@media (min-width: 401px) and (max-width: 550px){
+    .Image-screen{
+        /* border: solid blue 10px !important; */
+        width: 370px !important;
+        height: 350px !important;
+        margin: auto !important;
+    }
+}
+@media (min-width: 551px) and (max-width: 650px){
+    .Image-screen{
+        /* border: solid blue 10px !important; */
+        width: 420px !important;
+        height: 390px !important;
+        margin: auto !important;
+    }
+}
+@media (min-width: 651px) and (max-width: 750px){
+    .Image-screen{
+        /* border: solid blue 10px !important; */
+        width: 465px !important;
+        height: 390px !important;
+        margin: auto !important;
+    }
+}
+@media (min-width: 751px) and (max-width: 850px){
+    .Image-screen{
+        /* border: solid blue 10px !important; */
+        width: 520px !important;
+        height: 400px !important;
+        margin: auto !important;
+    }
+}
+@media screen and (max-width: 388px){
+    #flex{
+        /* border: blue solid; */
+        width: 130% !important;
+        translate: -55px;
+    }
+}
+@media (min-width: 389px) and (max-width: 490px){
+    #flex{
+        /* border: blue solid; */
+        width: 130% !important;
+        translate: -70px;
+        /* width: 100%; */
+    }
+}
 @media screen and (max-width: 990px){
     /* body{background-color: brown;} */
     #hover, #plus{display: none;}
@@ -156,4 +211,7 @@ a.nav-link + .dropdown > div > div{display: flex;align-items: center; gap: 6px;w
 }
 @media (min-width: 767.33px) and (max-width: 1225px){
     
+}
+@media screen and (max-width: 767.33px){
+    footer  hr{display: none;}
 }

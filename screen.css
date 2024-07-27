@@ -67,6 +67,22 @@ a.nav-link + .dropdown > div > div{display: flex;align-items: center; gap: 6px;w
     /* #media{right: ;} */
     
 }
+@media screen and (max-width: 569.33px){
+    #center{
+        /* left: 125px !important; */
+        left: 0 !important;
+        top: 0 !important;
+        bottom: 0 !important;
+        right: 0 !important;
+        width: 100%;
+        height: 38px;
+        text-align: center !important;
+        opacity: 0.5;
+        transition: 0.5s;
+    }
+    #center:hover{opacity: 1;}
+    span.navbar > i{text-align: center !important;}
+}
 @media(min-width: 1020px) and (max-width: 1059px){
     
     .dropdown > div + #media{right: -315px !important;}
@@ -78,6 +94,11 @@ a.nav-link + .dropdown > div > div{display: flex;align-items: center; gap: 6px;w
 @media (min-width: 1090px) and (max-width: 1110px){
     #media{right: -355px !important;}
     
+}
+@media screen and (max-width: 400px){
+    #com-1{order: -1;}
+    #AN{order: -3;}
+    #com-3{order: -3;}
 }
 @media (min-width: 1110px) and (max-width: 1130px){
     .dropdown > div + #media{right: -375px !important;}  
@@ -169,6 +190,9 @@ a.nav-link + .dropdown > div > div{display: flex;align-items: center; gap: 6px;w
         min-width: 950px;
         right: -313px !important;
     }
+}
+@media screen and (max-width: 767.33px){
+    footer  hr{display: none;}
 }
 @media (min-width: 1145px) and (max-width: 1175px){
     .dropdown .content-parent{right: -300px !important;}
